@@ -10,9 +10,9 @@ const Timeline = () => {
   const [activeItem, setActiveItem] = useState(0);
   const carouselRef = useRef();
 
-  const scroll = (node, left) => {
-    return node.scrollTo({ left, behavior: 'smooth' });
-  }
+  // const scroll = (node, left) => {
+  //   return node.scrollTo({ left, behavior: 'smooth' });
+  // }
 
   const handleClick = (e, i) => {
     e.preventDefault();
@@ -46,9 +46,9 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+      I taught myself how to code after two years of selling tech solutions to people. During my two years of sales, I was asked to include Market Intelligence to my roles. As part of my market intel responsibilities, I regularly downloaded competitor Apps and reviewed competitor web apps and relayed new features and products to my company's software developers. That was basically my first interaction with UIs. I became fascinated with UIs and started to ask questions about what went into building them. I started researching and asking for resources that would help me learn to code. I'm currently the lead Frontend developer for the Government of Ghana's website.
       </SectionText>
-      <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
+       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
             <CarouselMobileScrollNode
@@ -97,7 +97,7 @@ const Timeline = () => {
             </CarouselMobileScrollNode>
           ))}
         </>
-      </CarouselContainer>
+      </CarouselContainer> 
       <CarouselButtons>
         {TimeLineData.map((item, index) => {
           return (
@@ -111,7 +111,7 @@ const Timeline = () => {
             </CarouselButton>
           );
         })}
-      </CarouselButtons>
+      </CarouselButtons> 
       <SectionDivider />
     </Section>
   );

@@ -92,12 +92,14 @@ export const Slogan = styled.p`
 	@media ${props => props.theme.breakpoints.md}{
 		font-size: 16px;
 		line-height: 28px;
+		text-align: center;
 	}
 
 	@media ${props => props.theme.breakpoints.sm}{
 		line-height: 22px;
 		font-size: 14px;
 		min-width: 100px;
+		text-align: center;
 	}
 `
 
