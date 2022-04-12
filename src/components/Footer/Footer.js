@@ -24,13 +24,13 @@ const Footer = () => {
           <Slogan>I have a strong desire for mastery and it keeps me constantly learning</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com/Oztrequartista">
+          <SocialIcons href="https://github.com/Oztrequartista" target="_blank">
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.linkedin.com/in/edmund-s-yeboah/">
+          <SocialIcons href="https://www.linkedin.com/in/edmund-s-yeboah/" target="_blank">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://twitter.com/Oz_Trequartista">
+          <SocialIcons href="https://twitter.com/Oz_Trequartista" target="_blank">
             <AiFillTwitterCircle size="3rem" />
           </SocialIcons>
         </SocialContainer>

@@ -8,7 +8,7 @@ const Technologies = () =>  (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world.
+      I've worked with a decent number of frontend technologies in the web development world.
     </SectionText>
     <List>
       <ListItem>
@@ -16,37 +16,37 @@ const Technologies = () =>  (
           <DiReact size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>Javascript Frameworks</ListTitle>
           <ListParagraph>
-            Experiece with <br />
-            React.js and Next.js
+            Experience with <br />
+            React.js and Next.js 
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <picture>
-          <DiFirebase size="3rem" />
+          <DiReact size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Back-End</ListTitle>
+          <ListTitle>Testing</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node and Mongo DB
+           Jest and React Testing Library
           </ListParagraph>
         </ListContainer>
       </ListItem>
-      {/* <ListItem>
+      <ListItem>
         <picture>
-          <DiZend size="3rem" />
+          <DiReact size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>CSS Frameworks</ListTitle>
           <ListParagraph>
             Experience with <br />
-            tools like Figma
+            Tailwind and Bootstrap 
           </ListParagraph>
         </ListContainer>
-      </ListItem> */}
+      </ListItem>
     </List>
     <SectionDivider colorAlt />
   </Section>
