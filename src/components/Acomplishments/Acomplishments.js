@@ -4,7 +4,7 @@ import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalCompon
 import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 
 const data = [
-  { number: 20000, text: 'Successfully worked on the website for The Government of Ghana from concptualization'},
+  { number: 20000, text: 'Successfully worked on the website for The Government of Ghana from conceptualization'},
  
 ];
 
