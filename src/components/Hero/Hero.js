@@ -19,7 +19,7 @@ const Hero = (props) => (
         <SectionText>
           I am a self-taught Frontend developer with a background in sales. I’ve
           gained extensive experience in building useful and intuitive user
-          interfaces, programming, testing, and debugging processes. I have
+          interfaces, programming, testing, and debugging. I've
           worked on a number of projects from conceptualization to completion.
           I'm currently the lead Frontend developer for the Government of
           Ghana's website. I take pride in coding to consistently high standards
