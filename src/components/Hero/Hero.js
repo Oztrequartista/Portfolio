@@ -18,12 +18,13 @@ const Hero = (props) => (
         </SectionTitle>
         <SectionText>
           I am a self-taught Frontend developer with a background in sales. I’ve
-          gained extensive experience in designing useful and intuitive user
+          gained extensive experience in building useful and intuitive user
           interfaces, programming, testing, and debugging processes. I have
-          worked on a number of projects from conceptualization to completion. I
-          take pride in coding to consistently high standards and regularly love
-          to refresh my skills to ensure that I am up to speed with emerging
-          technologies.
+          worked on a number of projects from conceptualization to completion.
+          I'm currently the lead Frontend developer for the Government of
+          Ghana's website. I take pride in coding to consistently high standards
+          and regularly love to refresh my skills to ensure that I am up to
+          speed with emerging technologies.
         </SectionText>
         {/* <Button onClick={props.handleClick}>Learn More</Button> */}
       </LeftSection>
