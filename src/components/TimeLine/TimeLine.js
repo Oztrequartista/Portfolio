@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      I taught myself how to code after two years of selling tech solutions to people. During my two years of sales, I was asked to include Market Intelligence to my roles. As part of my market intel responsibilities, I regularly downloaded competitor Apps and reviewed competitor web apps and relayed new features and products to my company's software developers. That was basically my first interaction with UIs. I became fascinated with UIs and started to ask questions about what went into building them. I started researching and asking for resources that would help me learn to code. I believe at this point that I have found my real purpose in life.
+      I taught myself how to code after years of selling tech solutions to people. During my years of sales, I was asked to include Market Intelligence to my roles. As part of my market intel responsibilities, I regularly downloaded competitor Apps and reviewed competitor web apps and relayed new features and products to my company's software developers. That was basically my first interaction with UIs. I became fascinated with UIs and started to ask questions about what went into building them. I started researching and asking for resources that would help me learn to code. I believe at this point that I have found my real purpose in life.
       </SectionText>
        <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
