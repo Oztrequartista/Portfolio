@@ -8,6 +8,14 @@ export const projects = [
     id: 0,
   },
   {
+    title: 'Rotary Club of Accra Trinity',
+    description:"A web application for Rotary Club of Accra (non-profit) to maximize the organization’s online visibility. This club is dedicated to causes that build international relationships, improve lives, create a better world, support peace efforts and end polio forever.",
+    image: '/images/rotary.png',
+    tags: [ 'Wordpress'],
+    visit: 'https://rotaryclubofaccra-trinity.com/',
+    id: 1,
+  },
+  {
     title: 'Portal for Ghana.Gov',
     description:"A dashboard for reports and analysis for which The Government of Ghana uses to track activity such as revenue and expenditure on the GHANA.GOV website. This platform is also meant to capture and report specific data points from each department within the government  ",
     image: '/images/2.png',
@@ -15,6 +23,7 @@ export const projects = [
     visit: 'https://portal.govgh.org/login',
     id: 1,
   },
+
  
 ];
 
